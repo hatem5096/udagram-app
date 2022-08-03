@@ -1,0 +1,4 @@
+global:
+  profile: eb-cli
+deploy:
+  artifact: www/Archive.zip  
