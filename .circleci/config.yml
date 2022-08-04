@@ -60,9 +60,8 @@ jobs:
       - aws-cli/setup:
           profile-name: Hatem5096
           role-arn: 'arn:aws:iam::722351155386:user/Hatem5096'
-
       - checkout
-        -run:   
+      - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
