@@ -1,0 +1,4 @@
+This is a full-stack app is hosted on github repo https://github.com/hatem5096/udagram-app.git
+Backend is hosted on AWS EB
+Frontend is hosted on AWS S3
+postgres database is hosted on AWS RDS 

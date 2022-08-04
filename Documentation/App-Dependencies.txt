@@ -1,0 +1,11 @@
+Main Dependencies used in this app: 
+ - Node.js version 14.15.0
+ - Express framework running the server
+ - Angular as a frontend library
+ - Whole application is written in Typescript
+ - Mocha and Chai for testing
+ - PG package for postgres DB
+ - rimraf and bestzip packages help in building backend application
+
+To run this app locally you need to install postgres on your local machine and update the env variables with your credentials
+

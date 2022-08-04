@@ -1,0 +1,13 @@
+This application uses CI/CD as follows: 
+    1- After updating the app, it's pushed to a github repo
+    2- The github repo is connected to CircleCI
+
+ According to the CircleCI config.yml file:
+    1- Environment is set by installing node.js and eb cli and signing in to AWS
+    2- back and frontend dependencies are installed
+    3- backend and fronend applications are built
+    4- environment variables are then passed from CircleCI application to AWS EB
+    5- backend, frontend and database are deployed to AWS services.
+    6- application is deployed and ready to run: http://udagram-7223-5115-5386.s3-website-us-east-1.amazonaws.com/home 
+
+These processes run through the commands specified in the package.json file found in the root dir of the project.    
